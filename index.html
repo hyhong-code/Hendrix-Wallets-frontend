@@ -13,22 +13,46 @@
   <body>
     <!-- TOP BAR -->
 
-    <div class="topbar bg-light text-dark p-2">
+    <div class="topbar bg-light text-primary py-1">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">tel</div>
-          <div class="col-md-4">email</div>
-          <div class="col-md-4">social</div>
+          <div
+            class="col-md-4 d-flex justify-content-center justify-content-lg-start align-items-center"
+          >
+            <i class="fas fa-phone-alt mr-1"></i>TEL: (206) 696-0214
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center align-items-center"
+          >
+            <i class="fas fa-envelope mr-1"></i> Email: hong961127@gmail.com
+          </div>
+          <div
+            class="col-md-4 d-flex justify-content-center justify-content-lg-end align-items-center"
+          >
+            <a class="social-icon mr-3" href=""
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a class="social-icon mr-3" href=""
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a class="social-icon mr-3" href=""
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a class="social-icon" href=""><i class="fab fa-twitter"></i></a>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- NAVBAR -->
     <nav
-      class="navbar navbar-expand-lg navbar-dark bg-primary text-light sticky-top"
+      class="navbar navbar-expand-lg navbar-dark bg-primary text-light sticky-top py-2"
     >
-      <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+      <div class="container d-flex">
+        <a class="navbar-brand d-flex align-items-center" href="#"
+          ><img src="img/logo.png" class="logo" alt="" />
+          <span class="ml-2">Hendrix</span></a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -49,15 +73,6 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
           </ul>
 
           <ul class="navbar-nav ml-auto">
@@ -67,16 +82,17 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
           </ul>
+          <form action="" class="form-inline my-2 my-lg-0">
+            <input
+              type="search"
+              placeholder="Search Product..."
+              class="form-control mr-sm-2"
+            />
+            <button class="btn btn-outline-light my-2 my-sm-0">
+              <fas class="fas fa-search"></fas>
+            </button>
+          </form>
         </div>
       </div>
     </nav>
@@ -94,7 +110,7 @@
     </section>
 
     <!-- SHOW CASE -->
-    <section class="showcase bg-light text-dark py-5">
+    <section class="showcase bg-light text-dark py-6">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
@@ -264,7 +280,7 @@
     </section>
 
     <!-- DISCOUNT ITEMS -->
-    <section class="discount bg-dark text-light py-5">
+    <section class="discount bg-dark text-light py-6">
       <div class="container">
         <h3 class="text-center mb-5">DISCOUNT STOCKS</h3>
         <div class="row">
@@ -419,7 +435,7 @@
       </div>
     </section>
 
-    <section class="about bg-light text-primary py-5 text-center">
+    <section class="about bg-light text-primary py-6 text-center">
       <div class="container">
         <div class="row">
           <div class="col-md-4 p-3">

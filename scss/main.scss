@@ -16,6 +16,31 @@ body {
   background-color: rgba($color, $transparency);
 }
 
+.py-6 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.social-icon {
+  font-size: 1.2rem;
+}
+
+.navbar {
+  .navbar-brand {
+    .logo {
+      width: 35px;
+    }
+
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+  }
+}
+
 .banner {
   height: 30rem;
   background: linear-gradient(rgba(#f69e7b, 0.5), rgba(#f69e7b, 0.9)),
